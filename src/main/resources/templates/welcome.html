@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OIDC Integration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3 px-2">
+        <a class="navbar-brand">Spring boot integration with OIDC</a>
+        <div class="ms-auto mb-2 mb-lg-0 pull-right">
+            <div><a href="/logout"><button type="button" class="btn btn-light">Logout</button></a></div>
+        </div>
+    </nav>
+    <div class="px-2">
+        <div th:text="${message}"></div><br>
+        <div th:text="${mail}"></div><br><br>
+    </div>
+</div>
+</body>
+
+</html>
