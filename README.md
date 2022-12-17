@@ -333,7 +333,7 @@ We will now verify the connection.
 
 - We will open a browser and try to access http://localhost:8080.
 
-![](https://github.com/rcRounak/OIDCIntegrationImages/blob/main/Demo.gif)
+![](https://github.com/rcRounak/OIDCIntegrationImages/blob/main/Demo-Integration.gif)
 
 
 - We can see our connection got redirected to the **Okta login page**.
