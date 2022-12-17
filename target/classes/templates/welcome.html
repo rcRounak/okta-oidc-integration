@@ -8,6 +8,16 @@
     <title>OIDC Integration</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        .center {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .design {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,8 +28,11 @@
             <div><a href="/logout"><button type="button" class="btn btn-light">Logout</button></a></div>
         </div>
     </nav>
-    <div class="px-2">
-        <div th:text="${message}"></div><br>
+    
+    <br><br><br><br><br>
+    
+    <div class="center">
+        <div class="design" th:text="${message}"></div><br>
         <div th:text="${mail}"></div><br><br>
     </div>
 </div>
